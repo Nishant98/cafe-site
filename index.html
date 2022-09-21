@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee King</title>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico&display=swap" />
+    <!-- materialize icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+    <!-- materialize cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section class="my-navar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo" style="padding-left: 30px;">CafeKing</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal();">Home
+                    </a><i class="small material-icons">favorite</i></li>
+                    <li><a href="#" onclick="toggleModal();">About Us</a></li>
+                    <li><a href="#" onclick="toggleModal();">Coffee</a></li>
+                    <li><a href="#" onclick="toggleModal();">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Coffee</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact</a></li>
+        </ul>
+    </section>
+    <section class="my-slider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img style="object-fit: contain; width: 100%;" src="images/one.jpeg" alt="image one" />
+                    <div class="caption center-align white-text">
+                        <h3>CakeKing - Quality Cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/two.jpeg" alt="image two" />
+                    <div class="caption center-align white-text">
+                        <h3>CakeKing - Finest Coffee</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/three.jpeg" alt="image three" />
+                    <div class="caption center-align white-text">
+                        <h3>CakeKing - Energize your day!</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one of the best coffee around
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="my-description">
+        <div class="section white center">
+            <h2 class="header">CafeKing - Ultimate Quality Coffee</h2>
+            <div class="row container center">
+                <div class="col l8 s12 center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                    dicta dolores reiciendis odit accusantium eos inventore qui,
+                    molestiae veritatis quae accusamus, rerum culpa ut sunt modi neque
+                    quaerat. Ut architecto nulla excepturi dolores unde numquam porro
+                    nisi beatae! Quisquam, ex. Quas aspernatur, minus sunt cum ipsa ex
+                    aperiam praesentium delectus natus ullam debitis inventore
+                    repellendus ipsum? Libero aperiam soluta enim harum cum alias dolore
+                    quibusdam, atque recusandae, maxime impedit praesentium dignissimos
+                    amet beatae saepe repellendus cupiditate velit est incidunt dolorem,
+                    dolorum consectetur quos ullam. Nulla molestiae nisi quam quod
+                    mollitia illum nostrum nesciunt. Laudantium totam reprehenderit
+                    molestiae dolor repellat quaerat.
+                </div>
+                <div class="col l4 s12 center">
+                    <img src="images/one.jpeg" alt="image one" style="object-fit: contain" height="200" width="auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-cards">
+        <div class="row" style="padding-left: 50px; padding-right: 50px">
+            <div class="col s12 m12 l4" style="padding: 50px 5px">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/one.jpeg" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Coffee One<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Coffee One<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            Here is some more information about this product that is only
+                            revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/one.jpeg" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Coffee Two<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Coffee Two<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            Here is some more information about this product that is only
+                            revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/one.jpeg" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Coffee Three<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Coffee Three<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            Here is some more information about this product that is only
+                            revealed once clicked on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-parallax"></section>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/two.jpeg" /></div>
+    </div>
+    </section>
+    <section class="about-us">
+        <div class="section white center">
+            <div class="row container">
+                <h2 class="header">About Us</h2>
+                <p class="grey-text text-darken-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aperiam architecto, perspiciatis
+                    animi, possimus, sunt dignissimos placeat corporis voluptas facere esse aspernatur numquam quos
+                    accusamus nostrum aut inventore? Ad iure vitae tenetur. Consectetur dolores consequatur nam maxime
+                    placeat odit nulla excepturi maiores aliquid officiis aut fuga necessitatibus impedit accusantium
+                    magnam, blanditiis qui quas repudiandae distinctio delectus recusandae omnis neque voluptatibus!
+                    Repellendus excepturi eos suscipit ipsa facere dolorem quam molestias culpa esse praesentium a
+                    delectus fuga minima, dignissimos, quas totam dicta modi iste est cum quisquam magnam laborum quae
+                    nam? Eius officia rem architecto id consectetur veniam nesciunt dicta ex magni.
+                </p>
+                <a style="background-color: #6f4037 !important;" href="#" class="btn waves-effect waves-light">READ
+                    MORE</a>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <div class="col s12 l4 center" style="padding:50px;">
+                <i class="large material-icons icon-coffee">local_dining</i>
+                <h5 class="header">Variety of Coffee</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding:50px;">
+                <i class="large material-icons icon-coffee">watch_later</i>
+                <h5 class="header">Variety of Coffee</h5>
+            </div>
+            <div class="col s12 l4 center" style="padding:50px;">
+                <i class="large material-icons icon-coffee">favorite</i>
+                <h5 class="header">Variety of Coffee</h5>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="section white center">
+            <h3 class="headers">What out customers say</h3>
+            <div class="carousel my-carousel" style="margin-bottom: 30px;">
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel teal" style="background-color: #6f4037 !important;">
+                                <span class="white-text">One Review</span>
+                                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                    exercitationem doloremque velit odit ad dolores soluta quisquam maiores ipsum ea.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="my-footer">
+        <footer class="footer-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h4 class="white-text">Contact Us</h4>
+                        <p class="grey-text">XYZ Adress</p>
+                        <p class="grey-text">+91 3463238482</p>
+                    </div>
+                    <div class="col l6 s12">
+                        <h4 class="white-text">Social Media</h4>
+                        <ul>
+                            <li><a href="#" class="grey-text">Facebook</a></li>
+                            <li><a href="#" class="grey-text">Instagram</a></li>
+                            <li><a href="#" class="grey-text">Twitter</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-two">
+                <div class="col l6 s12">
+                    <p class="white-text">&copy; CafeKing</p>
+                </div>
+                <div class="col l6 s12">
+                    <p class="white-text">Designed by Nishant Nimbalkar</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <section class="my-infomodal">
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <p id="info-modal-content">Sorry! All links are disabled as of now</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- materialize js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- custom js -->
+<script src="js/loader.js"></script>
+
+</html>
